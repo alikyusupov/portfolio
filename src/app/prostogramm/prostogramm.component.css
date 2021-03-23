@@ -1,0 +1,13 @@
+.active{
+    animation: moveIn ease-in-out .5s ;
+}
+@keyframes moveIn{
+    0%{
+        transform: translateY(-42px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

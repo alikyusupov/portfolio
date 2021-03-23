@@ -1,0 +1,10 @@
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+.container-fluid{
+    color: white;
+}
+h4{
+    font-weight: bold;
+}

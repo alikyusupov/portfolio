@@ -1,0 +1,53 @@
+.container-fluid{
+    min-height: 88vh;
+    background-color: black;
+}
+.upperPart{
+    
+    background-image: url("/assets/img/rusflix.png");
+    background-position: center center;
+    min-height: 70vh;
+}
+@font-face {
+    font-family: 'prettyFont'; /*a name to be used later*/
+    src: url("/assets/pretty_font.ttf"); /*URL to font*/
+}
+.logo{
+    font-family: "prettyFont";
+    color: red;
+}
+h1,h2,h3,h4{
+    font-family: "prettyFont";
+    color: white;
+}
+.custom{
+    color:whitesmoke;
+    font-family: "prettyFont";
+}
+video{
+    vertical-align: baseline;
+    width: 100%;
+    height: 100%;
+}
+.videoHolder{
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    position: absolute;
+    top:46%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.active{
+    animation: moveIn ease-in-out .5s ;
+}
+@keyframes moveIn{
+    0%{
+        transform: translateY(-42px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

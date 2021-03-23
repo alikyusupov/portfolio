@@ -1,0 +1,18 @@
+fa-icon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+nav{
+    min-width: 370px;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    z-index: 2;
+}
+@font-face {
+    font-family: 'prettyFont'; /*a name to be used later*/
+    src: url("/assets/pretty_font.ttf"); /*URL to font*/
+}
+.prettyFont{
+    font-family: 'prettyFont'; 
+}

@@ -1,0 +1,67 @@
+nav{
+    background-image: url("/assets/slavehunter/headerBG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    height: 50vh;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    min-width: 375px;
+}
+.text-muted, .input-group-text{
+    color: white !important;
+}
+.lineOne{
+    padding-top:10vh;
+    height: 50px;
+}
+.lineTwo{
+    padding-top: 10vh;
+}
+.lineThree{
+    margin-top:50px;
+}
+
+.alignV{
+    padding-top: 12px;
+}
+
+ul li{
+    list-style-type: none;
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.bordered{
+    padding: 4px 10px 4px 10px;
+    border-radius: 15px;
+    border: 2px solid white;
+    opacity: .75;
+}
+.bordered:hover{
+    opacity: 1;
+}
+label{
+    font-size: 1.4rem;
+}
+.brd-w{
+    border: 1px solid white;
+}
+@media (max-width:764px){
+    nav{
+        height: 50px;
+        background-image: none;
+        background-color: black;
+    }
+    .lineOne{
+        padding-top:0vh;
+        height: 50px;
+    }
+}
+@media (min-width:1400px){
+    nav{
+        background-position-y: -150px;
+    }
+}
